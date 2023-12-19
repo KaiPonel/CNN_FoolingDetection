@@ -1,3 +1,8 @@
+# Abstract
+The research presented in the post centers on comparing different gradient-based introspection techniques and their responses to adversarial attacks in image classification tasks. By analyzing the behavior of these techniques under normal and attack scenarios, the study aims to understand the potential of combining different methods for enhanced detection of adversarial attacks. The experiments use two benchmark datasets, MNIST and CIFAR-10, and employ various attacks, including random label and parameter attacks.
+
+In addition to introspection techniques, the blog post delves into the practical aspects of implementing these methods, discussing the challenges and limitations encountered with different AI frameworks. The results of the experiments are illustrated with heatmaps, scatterplots, and 3D visualizations, providing a comprehensive view of the effectiveness of different introspection methods under various conditions. The post concludes with a reflection on the limitations of the study and suggests avenues for future research in the field of XAI.
+
 # Introduction
 In this day and age of AI and data, the reliance on AI models for various tasks has been increasing. Currently, there are many kinds of AI models, with the choices ranging from complex deep neural network architectures to simpler models, such as decision trees. The choice behind using a model depends on the task at hand. For this blog, we will be focusing on neural network architectures that are used for image classification.  
 
